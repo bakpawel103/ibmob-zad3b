@@ -1,0 +1,34 @@
+body,
+canvas {
+    background: url(https://superdevresources.com/wp-content/uploads/2015/12/blurred1.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+div.wrapper {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+div.left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: 1px solid #000006;
+
+}
+
+div.right {
+    float: right;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000001;
+}
